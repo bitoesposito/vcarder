@@ -1,0 +1,21 @@
+{
+    "name": "vcarder-backend",
+    "version": "1.0.0",
+    "description": "Backend per VCarder App",
+    "main": "src/server.js",
+    "scripts": {
+      "start": "node src/server.js"
+    },
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "cors": "^2.8.5",
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "jsonwebtoken": "^9.0.2",
+      "multer": "^1.4.5-lts.1",
+      "pg": "^8.11.3",
+      "pdfkit": "^0.13.0",
+      "vcards-js": "^2.10.0"
+    }
+  }
+  
