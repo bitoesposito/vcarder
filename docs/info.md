@@ -1,16 +1,16 @@
 # API Endpoints
 
-Metodo	    Endpoint	        Descrizione
-POST	    /login	            Login utenti
+Metodo	    Endpoint	          Descrizione
+POST	      /login	            Login utenti
 GET	        /users/:id	        Dettagli utente
 PUT	        /users/:id	        Modifica profilo utente
-POST	    /users/:id/upload	Upload immagine profilo
-GET	        /public/:slug	    Dati profilo pubblico
+POST	      /users/:id/upload	  Upload immagine profilo
+GET	        /public/:slug	      Dati profilo pubblico
 GET	        /vcard/:id	        Scarica vCard
-GET	        /pdf/:id	        Scarica biglietto PDF
-GET	        /admin/users	    Lista utenti (solo admin)
-POST	    /admin/users    	Crea nuovo utente (solo admin)
-DELETE	    /admin/users/:id	Elimina utente (solo admin)
+GET	        /pdf/:id	          Scarica biglietto PDF
+GET	        /admin/users	      Lista utenti (solo admin)
+POST	      /admin/users        Crea nuovo utente (solo admin)
+DELETE	    /admin/users/:id    Elimina utente (solo admin)
 
 # Database: tabella users
 
